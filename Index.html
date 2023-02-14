@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* ----Navbar Stylings */
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+
+        /* ----Services Header Styling */
+        .title::before {
+            content: '';
+            background: #7b1798;
+            height: 5px;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            transform: translateY(63px);
+        }
+
+        .title::after {
+            content: '';
+            background: #7b1798;
+            height: 10px;
+            width: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+            display: block;
+            transform: translateY(8px);
+        }
+
+        .social-icons img {
+            width: 60px;
+            transition: 0.5s;
+        }
+
+        .social-icons a:hover img {
+            transform: translateY(-10px);
+        }
+
+        .icon-t i {
+            margin-right: 8px;
+            padding-top: 7px;
+            font-size: 25px;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            border-radius: 2px;
+            background-image: linear-gradient(to right, #a517ba, #5f1782);
+        }
+    </style>
+    <title>Digital_Agency_Website</title>
+</head>
+
+<body>
+
+    <section style="width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;" id="nav-bar">
+        <!-- Navbar Section -->
+        <nav style="background-image: linear-gradient(to right, #a517ba, #5f1782);
+        padding: 0%;" class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#"><img style="height: 40px;
+                padding-left: 20px;" src="./images/demo-logo.png  " alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-white fs-2"></i>
+            </button>
+            <!-- main nav -->
+            <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-left">
+                    <li class="nav-item ps-2">
+                        <a href="#home" class="nav-link text-white">HOME</a>
+                    </li>
+                    <li class="nav-item ps-2">
+                        <a href="#services" class="nav-link text-white">SERVICES</a>
+                    </li>
+                    <li class="nav-item ps-2">
+                        <a href="#about" class="nav-link text-white">ABOUT US</a>
+                    </li>
+                    <li class="nav-item ps-2">
+                        <a href="#testimonials" class="nav-link text-white">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item ps-2">
+                        <a href="#contact" class="nav-link text-white">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" style="
+    background-image: linear-gradient(to right, #a517ba, #5f1782); 
+    color: white;
+    padding-top: 5%;">
+        <div class="container">
+            <!-- main home -->
+            <div class="row">
+                <div class="col-md-6">
+                    <p style="    font-size: 40px;
+                    font-weight: 600;
+                    margin-top: 100px;">BEST DIGITAL AGENCY</p>
+                    <P>Subscribe to Easy tutorials Youtube Channel to watch more videos on Website Development, Digital
+                        Marketing, WordPress and Graphics Designing</P>
+                    <a class="text-decoration-none text-white" href="#"><img style="    width: 45px ;
+                        margin: 20px;" src="./images/play.png" alt="">Watch Tutorials</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img class="img-fluid" src="./images/home2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <img style="width: 100%;" src="./images/wave1.png">
+    </section>
+
+    <!-- Services Section -->
+    <section style="padding: 80px 0;" id="services">
+        <div class="container text-center">
+            <h1 class="title">WHAT WE DO ?</h1>
+            <!-- main services -->
+            <div class="row">
+                <div class="col-md-4">
+                    <img style="width: 100px;" class="mt-5" src="./images/service1.png" alt="">
+                    <h4 class="p-1 mt-4 text-uppercase">Growth Marketing</h4>
+                    <P>Subscribe to Easy tutorials Youtube Channel to watch more videos on Website Development, Digital
+                        Marketing, WordPress and Graphics Designing</P>
+                </div>
+                <div class="col-md-4">
+                    <img style="width: 100px;" class="mt-5" src="./images/service2.png" alt="">
+                    <h4 class="p-1 mt-4 text-uppercase">Online Branding</h4>
+                    <P>Subscribe to Easy tutorials Youtube Channel to watch more videos on Website Development, Digital
+                        Marketing, WordPress and Graphics Designing</P>
+                </div>
+                <div class="col-md-4">
+                    <img style="width: 100px;" class="mt-5" src="./images/service3.png" alt="">
+                    <h4 class="p-1 mt-4 text-uppercase">Animated Ads</h4>
+                    <P>Subscribe to Easy tutorials Youtube Channel to watch more videos on Website Development, Digital
+                        Marketing, WordPress and Graphics Designing</P>
+                </div>
+            </div>
+            <button
+                style="box-shadow: none; padding: 8px 25px; border: none; border-radius: 20px; background-image: linear-gradient(to right, #a517ba, #5f1782);"
+                class="btn btn-primary" type="button">All Services</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section style="background-color: #f8f9fa; padding-bottom: 50px; padding-top: 50px;" id="about">
+        <div class="container">
+            <h1 class="title  text-center">WHY CHOOSE US ?</h1>
+            <!-- main section -->
+            <div class="row">
+                <div class="col-md-6">
+                    <p style="font-size:40px; font-weight:600; margin:8% 0 0 8%;">Why we're different</p>
+                    <ul>
+                        <li class="my-2">Believe in doing business with honesty</li>
+                        <li class="my-2">Believe in doing business with honesty</li>
+                        <li class="my-2">Believe in doing business with honesty</li>
+                        <li class="my-2">Believe in doing business with honesty</li>
+                        <li class="my-2">Believe in doing business with honesty</li>
+                        <li class="my-2">Believe in doing business with honesty</li>
+                        <li class="my-2">Believe in doing business with honesty</li>
+                        <li class="my-2">Believe in doing business with honesty</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/network.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section style="padding: 50px 0;" id="testimonials">
+        <div class="container">
+            <h1 class="title  text-center">WHAT CLIENTS SAY</h1>
+            <!-- main testimonials -->
+            <div class="row offset-1">
+                <div style="
+                border-left: 4px solid #7b1798;
+                margin: 50px 0;" class="col-md-5">
+                    <P>Subscribe to Easy tutorials Youtube Channel to watch more videos on Website Development, Digital
+                        Marketing, WordPress and Graphics Designing</P>
+                    <img style="height:60px; width:60px; border-radius:50%; margin: 0 10px;" src="./images/user1.jpg"
+                        alt="">
+                    <p style="display: inline-block; font-size:12px;"><b>Angelina</b><br>Co-founder at XYZ</p>
+                </div>
+                <div style="
+                border-left: 4px solid #7b1798;
+                margin: 50px 0;" class="col-md-5">
+                    <P>Subscribe to Easy tutorials Youtube Channel to watch more videos on Website Development, Digital
+                        Marketing, WordPress and Graphics Designing</P>
+                    <img style="height:60px; width:60px; border-radius:50%; margin: 0 10px;" src="./images/user2.jpg"
+                        alt="">
+                    <p style="display: inline-block; font-size:12px;"><b>John Doe</b><br>Director at XYZ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social-media Section -->
+    <section style="background-color: #f8f9fa; padding:50px 0;" id="contact">
+        <div class="container text-center">
+            <p style="font-size: 36px; font-weight:600; margin-bottom:30px;">FIND US ON SOCIAL MEDIA</p>
+            <div class="social-icons">
+                <a href="#"><img src="./images/facebook-icon.png" alt=""></a>
+                <a href="#"><img src="./images/instagram-icon.png" alt=""></a>
+                <a href="#"><img src="./images/twitter-icon.png" alt=""></a>
+                <a href="#"><img src="./images/whatsapp-icon.png" alt=""></a>
+                <a href="#"><img src="./images/linkedin-icon.png" alt=""></a>
+                <a href="#"><img src="./images/snapchat-icon.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section style=" background-image: linear-gradient(to right, #a517ba, #5f1782); color: white;" id="footer">
+        <img class="img-fluid" src="./images/wave2.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div style="padding: 20px;" class="col-md-4">
+                    <img style="width: 120px; margin-bottom:20px;" src="./images/demo-logo.png" alt="">
+                    <P>Subscribe to Easy tutorials Youtube Channel to watch more videos on Website Development, Digital
+                        Marketing, WordPress and Graphics Designing</P>
+                </div>
+                <div style="padding: 20px;" class="col-md-4 icon-t">
+                    <p><b>CONTACT US</b></p>
+                    <P><i class="fa-solid fa-location-dot"></i> World Trade Centre, Bangalore</P>
+                    <p></p><i class="fa-solid fa-phone"></i> +1 0123456789</p>
+                    <p><i class="fa-solid fa-envelope"></i> xyz@gmail.com </p>
+                </div>
+                <div style="padding: 20px;" class="col-md-4">
+                    <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                    <input style="box-shadow: none;
+                    border: none;
+                    border-radius: 0;
+                    margin-top: 25px;
+                    max-width: 250px;" type="text" class="form-control" placeholder="Your Email">
+                    <button
+                        style="box-shadow: none; padding: 8px 25px; border: none; background-image: linear-gradient(to right, #a517ba, #5f1782);"
+                        type="button" class="btn btn-primary mt-4">Subscribe</button>
+                </div>
+            </div>
+            <hr style="background-color: white;">
+            <p style="margin-bottom: 0; padding-bottom: o; text-align: center;">Website Created by Easy Tutorials</p>
+        </div>
+    </section>
+
+</body>
+<script src="./js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/acd4da4d53.js" crossorigin="anonymous"></script>
+
+</html>
